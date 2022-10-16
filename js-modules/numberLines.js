@@ -1,18 +1,4 @@
-/**
- * Given a DOM subtree, wraps it in a list, and puts each line into its own
- * list item.
- *
- * @param {Node} node modified in place.  Its content is pulled into an
- *     HTMLOListElement, and each line is moved into a separate list item.
- *     This requires cloning elements, so the input might not have unique
- *     IDs after numbering.
- * @param {number|null|boolean} startLineNum
- *     If truthy, coerced to an integer which is the 1-indexed line number
- *     of the first line of code.  The number of the first line will be
- *     attached to the list.
- * @param {boolean} isPreformatted true iff white-space in text nodes should
- *     be treated as significant.
- */
+
 function numberLines(node, startLineNum, isPreformatted) {
   var nocode = /(?:^|\s)nocode(?:\s|$)/;
   var lineBreak = /\r\n?|\n/;
