@@ -1,9 +1,9 @@
 .pln {
-  color: #2D3B45;
+  color: #2D3B45 !important;
 }
 @media screen {
   .str {
-    color: #0B874B;
+    color: #0B874B !important;
   }
   .kwd {
     color: #008;
@@ -18,18 +18,20 @@
     color: #066;
   }
   .clo,
-  .opn,
+  .opn {
+     color: red !important;
+  }
   .pun {
-    color: #660;
+    color: #2D3B45 !important;
   }
   .tag {
-    color: #008;
+    color: #0B874B !important;
   }
   .atn {
-    color: #0B874B;
+    color: #0374B5 !important;
   }
   .atv {
-    color: #FC5E13;
+    color: #0374B5 !important;
   }
   .dec,
   .var {
@@ -46,10 +48,10 @@
     font-weight: 700;
   }
   .str {
-    color: #0B874B;
+    color: red !important;
   }
   .kwd {
-    color: #006;
+    color: red;
   }
   .com {
     color: #600;
@@ -64,21 +66,21 @@
   .clo,
   .opn,
   .pun {
-    color: #2D3B45;
+    color: #2D3B45 !important;
   }
   .tag {
-    color: #0B874B;
+    color: #0B874B !important;
   }
   .atn {
-    color: #0B874B;
+    color: #0374B5 !important;
   }
   .atv {
-    color: #060;
+    color: #0374B5 !important;
   }
 }
 pre.prettyprint {
   padding: 2px;
-  border: 1px solid #888;
+  border: 1px solid #888f;
 }
 ol.linenums {
   margin-top: 0;
@@ -88,16 +90,18 @@ li.L0,
 li.L1,
 li.L2,
 li.L3,
+li.L4,
 li.L5,
 li.L6,
 li.L7,
-li.L8 {
-  list-style-type: none;
+li.L8,
+li.L9 {
+  list-style-type: decimal !important;
 }
 li.L1,
 li.L3,
 li.L5,
 li.L7,
 li.L9 {
-  background: #eee;
+  background: none !important;
 }
