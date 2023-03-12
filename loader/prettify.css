@@ -1,9 +1,12 @@
+#008EE2 blå
+#0B874B grønn
+#2D3B45 svart skrift
 .pln {
-  color: #000;
+  color: #2D3B45;
 }
 @media screen {
   .str {
-    color: #080;
+    color: #0B874B;
   }
   .kwd {
     color: #008;
@@ -29,7 +32,7 @@
     color: #606;
   }
   .atv {
-    color: #080;
+    color: #FC5E13;
   }
   .dec,
   .var {
@@ -46,7 +49,7 @@
     font-weight: 700;
   }
   .str {
-    color: #060;
+    color: #0B874B;
   }
   .kwd {
     color: #006;
@@ -64,10 +67,10 @@
   .clo,
   .opn,
   .pun {
-    color: #440;
+    color: #2D3B45;
   }
   .tag {
-    color: #006;
+    color: #0B874B;
   }
   .atn {
     color: #404;
