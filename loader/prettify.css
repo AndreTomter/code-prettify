@@ -23,7 +23,7 @@
      color: red !important;
   }
   .pun {
-    color: #0374B5 !important;
+    color: #0374B5;
   }
   .tag {
     color: #0B874B !important;
@@ -70,7 +70,7 @@
   .clo,
   .opn,
   .pun {
-    color: #2D3B45 !important;
+    color: #2D3B45;
   }
   .lik{
   color: #2D3B45 !important;
