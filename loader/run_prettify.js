@@ -106,7 +106,7 @@
 		N.insertBefore(g, N.firstChild)
 	})(H[l]);
 	for (var S = H.length, F = [], l = 0, B = P.length; l < B; ++l) F.push("https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/skins/" + encodeURIComponent(P[l]) + ".css");
-	F.push("https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/prettify.css");
+	F.push("https://andretomter.github.io/code-prettify/loader/prettify.css");
 	(function(g) {
 		function r(l) {
 			if (l !== x) {
