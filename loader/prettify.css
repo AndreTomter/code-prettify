@@ -1,6 +1,9 @@
 .pln {
   color: #0374B5;
 }
+.con {
+  color: #2D3B45 !important;
+}
 @media screen {
   .str                                //string
   {  
