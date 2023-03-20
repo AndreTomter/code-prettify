@@ -2,7 +2,8 @@
   color: #0374B5 !important;
 }
 @media screen {
-  .str {
+  .str                                //string
+  {  
     color: #0B874B !important;
   }
   .kwd {
@@ -22,7 +23,7 @@
      color: red !important;
   }
   .pun {
-    color: #2D3B45 !important;
+    color: #0374B5 !important;
   }
   .tag {
     color: #0B874B !important;
@@ -40,6 +41,9 @@
   .fun {
     color: red;
   }
+  .lik{
+  color: #2D3B45 !important;
+}
 }
 @media print, projection {
   .kwd,
@@ -68,6 +72,9 @@
   .pun {
     color: #2D3B45 !important;
   }
+  .lik{
+  color: #2D3B45 !important;
+}
   .tag {
     color: #0B874B !important;
   }
